@@ -17,7 +17,7 @@
 
     nav {
         position: absolute;
-        background-color: #a2cdff61;
+        background: rgba(255, 255, 255, 0.1);
         z-index: 1;
     }
 
@@ -27,6 +27,20 @@
         height: 100vh;
         background-size: cover;
     }
+
+    .primary-btn {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+
+        padding: 10px 40px;
+        background: rgba(255, 255, 255, .8);
+        border-radius: 30px;
+
+        border-color: #ffffff;
+        position: relative;
+    }
+
 
     .bg-banner {
         background-color: #0000008f;
@@ -100,9 +114,13 @@
 
             <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
             <label class="text-white z1 ">A boutique commercial & transactional law firm</label>
+
+
             <div class="bg-banner"></div>
+            <button href="#" class="primary-btn">GET IN TOUCH</button>
         </div>
     </div>
+
     <section id="section1" class="my-5 w-100 container">
         <div class="container text-center px-5 mb-5">
             <h1>Our Core Practices Areas</h1>
@@ -144,6 +162,7 @@
 
                     <h3>Why choose us</h3>
 
+
                     <div class=" d-flex flex-column">
                         <h5 class="font-weight-bold"> Leading provider</h5>
                         <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
@@ -170,7 +189,135 @@
     <section id="section3" class="h-50  ">
         <div class="row h-100 w-100 m-0">
 
-            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">Mapa</div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
+
+                <!-- amCharts javascript sources -->
+                <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+                <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+
+                <!-- amCharts javascript code -->
+                <script type="text/javascript">
+                    AmCharts.makeChart("map", {
+                        "type": "map",
+                        "pathToImages": "http://www.amcharts.com/lib/3/images/",
+                        "addClassNames": true,
+                        "fontSize": 15,
+                        "color": "#000000",
+                        "projection": "mercator",
+                        "backgroundAlpha": 1,
+                        "backgroundColor": "rgba(255,255,255,1)",
+                        "dataProvider": {
+                            "map": "worldLow",
+                            "getAreasFromMap": true,
+                            "images": [{
+                                    "top": 40,
+                                    "left": 60,
+                                    "width": 80,
+                                    "height": 40,
+                                    "pixelMapperLogo": true,
+                                    "imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg",
+                                    "url": "http://www.amcharts.com"
+                                },
+                                {
+                                    "selectable": true,
+                                    "longitude": -31.6087,
+                                    "latitude": 85.1075,
+                                    "svgPath": "M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123",
+                                    "color": "rgba(255,255,255,0.8)",
+                                    "scale": 1
+                                }
+                            ],
+                            "areas": [{
+                                    "id": "AR",
+                                    "title": "Argentina - 3 Clients",
+                                    "color": "rgba(101,112,146,0.8)"
+                                },
+                                {
+                                    "id": "BR",
+                                    "title": "Brazil - 3 Clients",
+                                    "color": "rgba(40,98,180,0.95)"
+                                },
+                                {
+                                    "id": "CA",
+                                    "title": "Canada - 10 Clients",
+                                    "color": "rgba(16,65,87,0.8)"
+                                },
+                                {
+                                    "id": "IN",
+                                    "title": "India - 14 Clients",
+                                    "color": "rgba(55,104,205,0.8)"
+                                },
+                                {
+                                    "id": "MX",
+                                    "title": "Mexico - 10 Clients",
+                                    "color": "rgba(133,151,189,0.8)"
+                                },
+                                {
+                                    "id": "SA",
+                                    "title": "Saudi Arabia - 5 Clients",
+                                    "color": "rgba(39,50,173,0.8)"
+                                },
+                                {
+                                    "id": "US",
+                                    "title": "United States - 80 Clients",
+                                    "color": "rgba(75,110,216,0.8)"
+                                }
+                            ]
+                        },
+                        "balloon": {
+                            "horizontalPadding": 15,
+                            "borderAlpha": 0,
+                            "borderThickness": 1,
+                            "verticalPadding": 15
+                        },
+                        "areasSettings": {
+                            "color": "rgba(130,130,130,1)",
+                            "outlineColor": "rgba(255,255,255,1)",
+                            "rollOverOutlineColor": "rgba(255,255,255,1)",
+                            "rollOverBrightness": 20,
+                            "selectedBrightness": 20,
+                            "selectable": true,
+                            "unlistedAreasAlpha": 0,
+                            "unlistedAreasOutlineAlpha": 0
+                        },
+                        "imagesSettings": {
+                            "alpha": 1,
+                            "color": "rgba(130,130,130,1)",
+                            "outlineAlpha": 0,
+                            "rollOverOutlineAlpha": 0,
+                            "outlineColor": "rgba(255,255,255,1)",
+                            "rollOverBrightness": 20,
+                            "selectedBrightness": 20,
+                            "selectable": true
+                        },
+                        "linesSettings": {
+                            "color": "rgba(130,130,130,1)",
+                            "selectable": true,
+                            "rollOverBrightness": 20,
+                            "selectedBrightness": 20
+                        },
+                        "zoomControl": {
+                            "zoomControlEnabled": true,
+                            "homeButtonEnabled": false,
+                            "panControlEnabled": false,
+                            "right": 38,
+                            "bottom": 30,
+                            "minZoomLevel": 0.25,
+                            "gridHeight": 100,
+                            "gridAlpha": 0.1,
+                            "gridBackgroundAlpha": 0,
+                            "gridColor": "#FFFFFF",
+                            "draggerAlpha": 1,
+                            "buttonCornerRadius": 2
+                        }
+                    });
+                </script>
+                </head>
+
+                <div id="map" style="width: 100%; height: 300px;"></div>
+
+
+            </div>
             <div class="col-12 col-sm-6  d-flex flex-column justify-content-center align-items-center">
                 <h1>Specialty Practice:<br>
                     Oilfield Services</h1>
