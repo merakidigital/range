@@ -44,9 +44,10 @@
 
     .bg-banner {
         background-color: #0000008f;
-        width: 100%;
-        height: 100%;
-        position: absolute;
+    width: 100%;
+    height: calc(100% - 122px);
+    position: absolute;
+    top: 122px;
     }
 
     .z1 {
@@ -94,22 +95,22 @@
 </style>
 
 <body class="bg-white h-100">
+    <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
 
+        <div class="bg-white">
+            <img src="" alt="" srcset="" width="50" height="50">
+        </div>
+        <div class="row font-weight-bold h-100 align-items-center d-none d-sm-block">
+            <a href="./Home" class="c-principal px-5">Home</a>
+            <a href="./About" class="c-principal px-5">About</a>
+            <a href="./Services" class="c-principal px-5">Services</a>
+            <a href="./Team" class="c-principal px-5">Team</a>
+            <a href="./Contact" class="c-principal px-5">Contact</a>
+        </div>
+    </nav>
     <div class="banner position-relative">
 
-        <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
 
-            <div class="bg-white">
-                <img src="" alt="" srcset="" width="50" height="50">
-            </div>
-            <div class="row font-weight-bold h-100 align-items-center d-none d-sm-block">
-                <a href="./Home" class="c-principal px-5">Home</a>
-                <a href="./About" class="c-principal px-5">About</a>
-                <a href="./Services" class="c-principal px-5">Services</a>
-                <a href="./Team" class="c-principal px-5">Team</a>
-                <a href="./Contact" class="c-principal px-5">Contact</a>
-            </div>
-        </nav>
         <div class="d-flex justify-content-center align-items-center flex-column  h-100">
 
             <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
