@@ -8,75 +8,37 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
-<style>
-    #section-3 {
-        background-image: url("./assets/imgs/home1.jpg");
-        background-size: contain;
-    }
-
-    .acordeon-titulo {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        background-color: #90979f;
-    }
-
-    .acordeon-titulo span {
-        cursor: pointer;
-    }
-
-    .acordeon-titulo.activo {
-        background-color: #a8c6e5;
-    }
-
-    .acordeon-contenido {
-        display: none;
-    }
-
-    .acordeon-contenido.activo {
-        display: block;
-    }
-
-    #s-2_1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    input, textarea{
-        border: 0px;
-        
-    }
-</style>
 
 
 
-<body class="bg-white ">
-    <section class="section-1 row">
+<body class="bg-white pagina">
+    <section class="section-1 row   p-sm-5 container">
         <div class="col-12 col-sm-6 border-right">
             <div class="d-flex flex-column p-4">
-                <h2>Get in touch</h2>
+                <h1>Get in touch</h1>
                 <h5>Send a Message</h5>
                 <label>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti in eos aliquid blanditiis. </label>
-                <form class="row">
-                    <div class="col-12 col-sm-12 col-md-6">
+                <form  id="form-contac" class="row">
+                    <div class="col-12 col-sm-12 col-md-6 p-0 pr-sm-2">
                         <h6>Name</h6>
-                        <input type="text" class="border-bottom">
+                        <input type="text" class="w-100">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 p-0 ">
                         <h6>Email Address</h6>
-                        <input type="text" class="border-bottom">
+                        <input type="text" class="w-100">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 p-0 pr-sm-2">
                         <h6>Company Name</h6>
-                        <input type="text" class="border-bottom">
+                        <input type="text" class="w-100">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-6 p-0">
                         <h6>Phone Number</h6>
-                        <input type="text" class="border-bottom">
+                        <input type="text" class="w-100">
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 p-0">
                         <h6>Message</h6>
                         <textarea class="form-control"></textarea>
                     </div>
@@ -85,8 +47,24 @@
             </div>
         </div>
         <div class="col-12 col-sm-6">
-            <h3>Call us</h3>
-            <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, atque velit asperiores odit </label>
+            <div class="d-flex flex-column justify-content-around align-items-center h-100">
+
+                <div>
+                    <h5>Call us</h5>
+                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, atque velit asperiores odit </label>
+                    <div>
+                        <p>555-555-555</p>
+                    </div>
+                </div>
+                <div>
+                    <h5>Email us</h5>
+                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, atque velit asperiores odit </label>
+                    <div>
+                        <p>hello@rangecounselor.com</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
 

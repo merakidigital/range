@@ -8,93 +8,10 @@
     <title>Home</title>
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<style>
-    .c-principal {
 
-        color: #21456c;
-    }
-
-    nav {
-        position: absolute;
-        background: rgba(255, 255, 255, 0.1);
-        z-index: 1;
-    }
-
-
-    .banner {
-        background-image: url("./assets/imgs/home1.jpg");
-        height: 100vh;
-        background-size: cover;
-    }
-
-    .primary-btn {
-        display: inline-block;
-        font-size: 12px;
-        font-weight: bold;
-
-        padding: 10px 40px;
-        background: rgba(255, 255, 255, .8);
-        border-radius: 30px;
-
-        border-color: #ffffff;
-        position: relative;
-    }
-
-
-    .bg-banner {
-        background-color: #0000008f;
-    width: 100%;
-    height: calc(100% - 122px);
-    position: absolute;
-    top: 122px;
-    }
-
-    .z1 {
-        z-index: 1;
-    }
-
-    .carta {
-        background-color: #dce4f1;
-        border-radius: 25px;
-        padding: 3rem 1.3rem;
-    }
-
-    #section2 {
-        background-color: #303659;
-    }
-
-    #section2 button {
-        color: #21456c;
-    }
-
-    #img2 {
-        background-image: url("./assets/imgs/img2.jpg");
-        background-size: cover;
-    }
-
-    @media (max-width: 512px) {
-        .display-1 {
-            font-size: 3rem !important;
-        }
-
-        #img2 {
-            background-image: url("./assets/imgs/img2.jpg");
-            background-size: cover;
-            height: 500px;
-        }
-
-        #section3 {}
-
-        .carta {
-            background-color: #dce4f1;
-            border-radius: 25px;
-            padding: 2rem 1rem;
-        }
-    }
-</style>
-
-<body class="bg-white h-100">
+<body id="p-home" class="bg-white h-100">
     <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
 
         <div class="bg-white">
@@ -155,7 +72,7 @@
 
         </div>
     </section>
-    <section id="section2" class=" ">
+    <section id="section2" class="">
         <div class="row w-100 h-100 m-0">
 
             <div class="col-12 col-md-6 ">
@@ -186,8 +103,7 @@
 
         </div>
     </section>
-
-    <section id="section3" class="h-50  ">
+    <section id="section3" class=" ">
         <div class="row h-100 w-100 m-0">
 
             <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
