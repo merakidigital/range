@@ -30,7 +30,7 @@
 
         <div class="d-flex justify-content-center align-items-center flex-column  h-100">
 
-            <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
+            <h1 class="display-1 text-white z1 font-weight-bold text-center">Range</h1>
             <label class="text-white z1 ">A boutique commercial & transactional law firm</label>
 
 
