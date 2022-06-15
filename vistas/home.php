@@ -15,7 +15,7 @@
     <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
 
         <div class="bg-white">
-            <img src="" alt="" srcset="" width="50" height="50">
+            <img src="./assets/imgs/logo-header.png"  width="60px" height="auto">
         </div>
         <div class="row font-weight-bold h-100 align-items-center d-none d-sm-block">
             <a href="./Home" class="c-principal px-5">Home</a>
@@ -30,7 +30,7 @@
 
         <div class="d-flex justify-content-center align-items-center flex-column  h-100">
 
-            <h1 class="display-1 text-white z1 font-weight-bold text-center">dadodado</h1>
+            <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
             <label class="text-white z1 ">A boutique commercial & transactional law firm</label>
 
 
