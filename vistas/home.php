@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/mainMobile.css">
 </head>
 
 <body id="p-home" class="bg-white h-100">
     <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
 
-        <div class="bg-white">
+        <div class="">
             <img src="./assets/imgs/logo-header.png"  width="60px" height="auto">
         </div>
         <div class="row font-weight-bold h-100 align-items-center d-none d-sm-block">
@@ -31,7 +32,7 @@
         <div class="d-flex justify-content-center align-items-center flex-column  h-100">
 
             <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
-            <label class="text-white z1 ">A boutique commercial & transactional law firm</label>
+            <h4 class="text-white z1 text-center ">A boutique commercial & transactional law firm</h4>
 
 
             <div class="bg-banner"></div>
@@ -41,31 +42,31 @@
 
     <section id="section1" class="my-5 w-100 container">
         <div class="container text-center px-5 mb-5">
-            <h1>Our Core Practices Areas</h1>
+            <h1 class="">Our Core Practices Areas</h1>
             <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero distinctio a ad officiis vitae suscipit illum.</label>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 mt-3 mt-sm-0 ">
                 <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
 
-                    <img src="" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5">Oilfield Services</h5>
+                    <img src="./assets/imgs/icons/oil-rig.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
+                    <h5 class="my-5 font-weight-bold">Oilfield Services</h5>
                     <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
                 <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
 
-                    <img src="" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5">Acquisitions,Diverstitures & Joint Ventures</h5>
+                    <img src="./assets/imgs/icons/acquisitions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
+                    <h5 class="my-5 font-weight-bold">Acquisitions,Diverstitures & Joint Ventures</h5>
                     <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
                 <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
 
-                    <img src="" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5">Commercial & International Transactions</h5>
+                    <img src="./assets/imgs/icons/transactions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
+                    <h5 class="my-5 font-weight-bold">Commercial & International Transactions</h5>
                     <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
                 </div>
             </div>
@@ -97,13 +98,14 @@
 
                 </div>
             </div>
-            <div id="img2" class="col-12 col-md-6">
+            <div id="img2" class="col-12 col-md-6 p-0 m-0">
+                    <img src="./assets/imgs/img2.jpg" alt="Services" sizes="" srcset="" class="bg-black w-100" style="background-size: cover" >
 
             </div>
 
         </div>
     </section>
-    <section id="section3" class=" ">
+    <section id="section3" class="mt-5 ">
         <div class="row h-100 w-100 m-0">
 
             <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
@@ -235,7 +237,7 @@
 
 
             </div>
-            <div class="col-12 col-sm-6  d-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-sm-6  d-flex flex-column justify-content-center align-items-start">
                 <h1>Specialty Practice:<br>
                     Oilfield Services</h1>
 

@@ -7,21 +7,34 @@
     background-color: #21456c;
 }
 
+.bg-gris{
+    background-color: #f4f4f4;
+}
+/***footer**/
+[class^="bi-"]::before, [class*=" bi-"]::before{
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+
 /***ESPECIFICAS***/
 
 /***HOME***/
 
 #p-home nav {
     position: absolute;
-    background: rgba(255, 255, 255, 0.1);
+    background: #adb7caba;
     z-index: 1;
+    height: 100px;
 }
 
 
 #p-home .banner {
-    background-image: url("./assets/imgs/home1.jpg");
+    background-image: url("../imgs/hero-bg.jpg");
     height: 100vh;
     background-size: cover;
+    
 }
 
 #p-home .primary-btn {
@@ -29,11 +42,10 @@
     font-size: 12px;
     font-weight: bold;
 
-    padding: 10px 40px;
-    background: rgba(255, 255, 255, .8);
+    padding: 10px 40px; 
     border-radius: 30px;
 
-    border-color: #ffffff;
+    border-color: #f4f4f4;
     position: relative;
 }
 
@@ -41,9 +53,9 @@
 #p-home .bg-banner {
     background-color: #0000008f;
     width: 100%;
-    height: calc(100% - 122px);
+    height: calc(100% - 100px);
     position: absolute;
-    top: 122px;
+    top: 100px;
 }
 
 #p-home .z1 {
@@ -51,7 +63,7 @@
 }
 
 #p-home .carta {
-    background-color: #dce4f1;
+    background-color: #ededed;
     border-radius: 25px;
     padding: 3rem 1.3rem;
 }
