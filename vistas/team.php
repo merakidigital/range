@@ -61,10 +61,10 @@
 
                     <h4>Jordan Strouse</h4>
                     <h6>Oil & Gas Expert</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus sit,
-                        quo unde quis hic aliquid eligendi asperiores nam eos cumque error iusto, tempore minima sint soluta placeat quam molestias!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus sit,
-                        quo unde quis hic aliquid eligendi asperiores nam eos cumque error iusto, tempore minima sint soluta placeat quam molestias!</p>
+                    <p>Jordan's primary expertise is as transactional and business counsel in the oil services and energy technologies industries, but has counseled start-ups, entrepreneurs, investors, private equity-backed ventures and growth stage portfolio companies with respect to acquisitions and international contracting. His sector knowledge in oil services and energy technologies as well as his global experience structuring cross-border and multi-cultural transactions in more than 30 countries attracts global energy/oil clients and private equity firms to represent their interests.
+</p>
+                    <p>Before starting Range Counselors, Jordan worked as in-house counsel for a publicly traded international land and offshore drilling contractor, as General Counsel of a private equity backed oil equipment venture, was based in Cape Town, South Africa as Regional General Counsel for one of the world’s largest oilfield service manufacturers and service providers before entering into private practice where he acts as outside general counsel to oil service companies, oilfield manufacturers, oil service technology and software providers, modular hybrid power providers, international marketing companies, private equity funds and venture capital investors.
+</p>
                     <h6>Social</h6>
 
                     <i class="bi bi-twitter mr-2"></i>

@@ -47,27 +47,27 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 mt-3 mt-sm-0 ">
-                <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
+                <div class="carta text-left d-flex flex-column justify-content-between align-items-left h-100 ">
 
                     <img src="./assets/imgs/icons/oil-rig.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <h5 class="my-5 font-weight-bold">Oilfield Services</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
+                    <label>We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
-                <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
+                <div class="carta text-left d-flex flex-column justify-content-between align-items-left h-100 ">
 
                     <img src="./assets/imgs/icons/acquisitions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <h5 class="my-5 font-weight-bold">Acquisitions,Diverstitures & Joint Ventures</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
+                    <label>We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
-                <div class="carta text-center d-flex flex-column justify-content-between align-items-center h-100 ">
+                <div class="carta text-left d-flex flex-column justify-content-between align-items-left h-100 ">
 
                     <img src="./assets/imgs/icons/transactions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <h5 class="my-5 font-weight-bold">Commercial & International Transactions</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. quam vitae minima eaque provident iusto esse veniam nobis dolorem laudantium. Atque.</label>
+                    <label>Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
                 </div>
             </div>
 
@@ -241,8 +241,8 @@
                 <h1>Specialty Practice:<br>
                     Oilfield Services</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi praesentium impedit ipsa voluptas voluptate rem. Perspiciatis, cupiditate? Eius, ipsam sequi ab iusto dicta architecto minus ipsa et omnis libero molestias?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi praesentium impedit ipsa voluptas voluptate rem. Perspiciatis, cupiditate? Eius, ipsam sequi ab iusto dicta architecto minus ipsa et omnis libero molestias?</p>
+                <p>With transactions successfully completed in more than 50 countries, the Range professionals understand the needs of oilfield service companies, the reality of industry practice risk allocation and, most importantly, how to “get things done” in different jurisdictions. </p>
+                <p>The Range team has the ability to tap it’s unique oilfield network of legal, finance and operational contacts around the world for advice on contracting, handling disputes and starting/exiting business operations in-country.</p>
 
             </div>
         </div>

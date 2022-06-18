@@ -51,30 +51,30 @@
 <body class="bg-white ">
     <section id="section-1" class=" text-center my-5">
         <h5>OUR SERVICES</h5>
-        <h1>We offer expert counseling for you</h1>
-        <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et sit assumenda numquam officiis architecto voluptatibus </label>
+        <h1>We offer expertise and specialized services</h1>
+        <label>Range Counselors supports clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services.</label>
     </section>
     <section id="section-2" class=" container">
         <div class="row">
             <div class="col-12 col-sm-4 bg-primary">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Wealth Management</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est cupiditate inventore? Repellendus autem enim, ad error ipsum quas, fuga maxime dolorem reprehenderit non deleniti. Quasi eligendi inventore quas animi!</label>
+                    <h5>Oilfield Services</h5>
+                    <label>We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
                 </div>
             </div>
             <div class="col-12 col-sm-4 ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Wealth Management</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est cupiditate inventore? Repellendus autem enim, ad error ipsum quas, fuga maxime dolorem reprehenderit non deleniti. Quasi eligendi inventore quas animi!</label>
+                    <h5>Acquisitions, Diversitures & Joint Ventures</h5>
+                    <label>We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
                 </div>
             </div>
             <div class="col-12 col-sm-4 ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Wealth Management</h5>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit est cupiditate inventore? Repellendus autem enim, ad error ipsum quas, fuga maxime dolorem reprehenderit non deleniti. Quasi eligendi inventore quas animi!</label>
+                    <h5>Commercial & International Transactions</h5>
+                    <label>Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
                 </div>
             </div>
         </div>
@@ -107,8 +107,8 @@
                 <div class="container p-5">
 
                     <label>HOW WE WORK</label>
-                    <h4>Leading the best invest manager team</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis magnam ducimus et commodi dolore accusamus ab autem</p>
+                    <h4>Let us lead your business to new markets</h4>
+                    <p>Working with advanced technology and know-how businesses in the energy transition, Range is a driving force for international business expansion.</p>
                 </div>
                 <div class="row">
 

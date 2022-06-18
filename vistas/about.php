@@ -146,7 +146,7 @@
             <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-space h-100 z1 p-sm-5 py-3">
 
                 <h3 class=" text-white font-weight-bold  ">We take business to new markets </h3>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="text-white">We support clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services, combining specialist know-how, connections, local partners and execution expertise.</p>
                 <div class="row">
                     <div class="col-6 col-sm-6">
                         <div class="row">
@@ -206,7 +206,7 @@
         </div>
     </section>
     <section id="section-3" class="container my-3">
-        <h1 class="text-center">MEET THE TEAM</h1>
+        <h1 class="text-center">Who we are</h1>
 
         <div class="d-flex justify-content-around mb-4 row">
 
