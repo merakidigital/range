@@ -52,6 +52,10 @@ footer h4 {
     border-left: solid 1px #adb7caba;
 }
 
+#p-home #section1 {
+    width: 75% !important;
+}
+
 @media (max-width: 512px) {
     
     .h-s-1-bordes { 
