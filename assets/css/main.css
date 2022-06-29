@@ -2,21 +2,25 @@
 .c-principal {
     color: #21456c;
 }
-.c-verde{
+
+.c-verde {
     color: #A2C454;
 }
-.c-darkblue{
+
+.c-darkblue {
     color: #303659;
 }
-.c-green{
+
+.c-green {
     color: #A2C454;
 
 }
 
-.bg-blue-primary{
+.bg-blue-primary {
     background-color: #4B83CF45;
 }
-.bg-blue-dark{
+
+.bg-blue-dark {
     background-color: #303659;
 }
 
@@ -40,8 +44,15 @@
     z-index: 0;
     top: 0;
 }
+
 .z1 {
     z-index: 1;
+}
+
+/***TEAM**/
+#p-team .banner {
+    background-image: url("../imgs/team.png");
+    background-size: contain;
 }
 
 /***footer**/
@@ -52,13 +63,14 @@
     padding: 2px;
 }
 
-.f-title::before{
+.f-title::before {
     position: relative;
 }
-.f-title::before{
+
+.f-title::before {
     content: "";
     height: 100%;
-    border:solid 4px #21456c; 
+    border: solid 4px #21456c;
     position: relative;
     left: -10px;
 
@@ -79,10 +91,12 @@ footer h4 {
     position: relative;
     top: -50px;
 }
+
 footer {
     background-color: #303659;
 }
-.subFooter{
+
+.subFooter {
     background-color: #1A2134;
     display: flex;
     justify-content: space-around;
@@ -181,7 +195,7 @@ footer {
         background-size: cover;
         height: 500px;
     }
- 
+
 
 
 }
@@ -192,11 +206,13 @@ footer {
     width: 400;
     height: 400;
 }
-.sub-borde-verde { 
+
+.sub-borde-verde {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .sub-borde-verde::after {
     content: "";
     width: 24%;
