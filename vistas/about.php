@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($titulo) ? $titulo : "d"  ?></title>
+    <title><?= isset($titulo) ? $titulo : "About"  ?></title>
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/mainMobile.css">
 </head>
 
 <style>
@@ -15,11 +17,7 @@
         height: 100%;
     }
 
-    .recuadro {
-        background-color: #303659;
-        width: 400;
-        height: 400;
-    }
+    
 
     #img_1 {
         height: 400;
@@ -30,7 +28,7 @@
     }
 
     .imagen-completa {
-        background-image: url("./assets/imgs/home1.jpg");
+        background-image: url("./assets/imgs/img13.png");
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -52,36 +50,14 @@
         position: absolute;
         z-index: 0;
     }
-    @media (max-width: 992px) {
-        .recuadro {
-            background-color: #303659;
-            width: 100%;
-            height: 100%;
-        }
 
-        #img_1 {
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            right: -20;
-            bottom: -15;
-        }
+    .banner {
+        background-image: url("./assets/imgs/about.png");
     }
-    @media (max-width: 512px) {
-        .recuadro {
-            background-color: #303659;
-            width: 200;
-            height: 200;
-        }
 
-        #img_1 {
-            height: 200;
-            width: 200;
-            position: absolute;
-            right: -20;
-            bottom: -15;
-        }
-    }
+  
+
+    
 
     .team-img {
         min-height: 320px;
@@ -90,13 +66,14 @@
 
 
     }
-    .s4-textos{
+
+    .s4-textos {
         background-color: #f3f3f3;
     }
 </style>
 
 
-<body class="bg-white">
+<body id="p-about" class="bg-white ">
 
     <section id="section-1 ">
         <div class="d-flex flex-wrap  container ">
@@ -104,31 +81,38 @@
             <div class="col-12 col-sm-6 py-5">
                 <div class="recuadro position-relative">
 
-                    <img id="img_1" src="./assets/imgs/img2.jpg">
+                    <img id="img_1" src="./assets/imgs/img14.png">
                 </div>
             </div>
             <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
                 <h5>WHY RANGE COUNSELORS</h5>
-                <h1>With over 10 years of experience helping business striving for excellence</h1>
+                <h1 class="text-mobile-1">With over 10 years of experience helping business striving for excellence</h1>
                 <div class="d-flex mt-5">
                     <div class="d-flex flex-wrap mb-2 mb-0">
                         <div class="col-12 col-sm-6 border-left ">
-                            <div class="col-4">
+                            <div class="row">
 
-                            </div>
-                            <div class="col-8">
-                                <h1>100m+</h1>
-                                <h6>Funcing secured</h6>
+                                <div class="col-4">
+                                    <img src="./assets/imgs/icons/icon11.png">
+
+                                </div>
+                                <div class="col-8">
+                                    <h1>100m+</h1>
+                                    <h6>Funcing secured</h6>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 border-left  mt-3 mt-sm-0">
+                            <div class="row">
 
-                            <div class="col-4">
+                                <div class="col-4">
+                                    <img src="./assets/imgs/icons/icon12.png">
 
-                            </div>
-                            <div class="col-8">
-                                <h1>100+</h1>
-                                <h6>Deals closed across the world</h6>
+                                </div>
+                                <div class="col-8">
+                                    <h1>100+</h1>
+                                    <h6>Deals closed across the world</h6>
+                                </div>
                             </div>
                         </div>
 
@@ -140,85 +124,87 @@
 
         </div>
     </section>
-    <section id="section-2" class="imagen-completa">
-        <div class="row h-100 m-0 ">
+    <section id="section-2" class="imagen-completa ">
+        <div class="container">
 
-            <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-space h-100 z1 p-sm-5 py-3">
+            <div class="row h-100 m-0 ">
 
-                <h3 class=" text-white font-weight-bold  ">We take business to new markets </h3>
-                <p class="text-white">We support clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services, combining specialist know-how, connections, local partners and execution expertise.</p>
-                <div class="row">
-                    <div class="col-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-12 col-sm-1 pt-2">
-                                <i class="bi bi-yin-yang text-white "></i>
+                <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-space h-100 z1 py-5">
+
+                    <h3 class=" text-white font-weight-bold  ">We take business to new markets </h3>
+                    <p class="text-white">We support clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services, combining specialist know-how, connections, local partners and execution expertise.</p>
+                    <div class="row mt-5">
+                        <div class="col-6 col-sm-6  ">
+                            <div class="row">
+                                <div class="col-12 col-sm-2 pb-2 ">
+
+                                    <img src="./assets/imgs/icons/about1.svg">
+                                </div>
+                                <div class="col-12 col-sm-10 ">
+                                    <h6 class="text-white">Market knowledge</h6>
+                                    <p class="text-white">We develop legal strategies for domestic and international markets.</p>
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-10">
-                                <h5 class="text-white">Leading provider</h5>
-                                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
+
                         </div>
+                        <div class="col-6 col-sm-6 ">
+                            <div class="row">
+                                <div class="col-12 col-sm-2 pb-2 ">
+                                    <img src="./assets/imgs/icons/about2.svg">
+                                </div>
+                                <div class="col-12 col-sm-10">
+                                    <h6 class="text-white">Industry-specific</h6>
+                                    <p class="text-white">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.</p>
+                                </div>
+                            </div>
 
-                    </div>
-                    <div class="col-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-12 col-sm-1 pt-2">
-                                <i class="bi bi-yin-yang text-white"></i>
-                            </div>
-                            <div class="col-12 col-sm-10">
-                                <h5 class="text-white">Leading provider</h5>
-                                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
                         </div>
+                        <div class="col-6 col-sm-6  ">
+                            <div class="row">
+                                <div class="col-12 col-sm-2 pb-2 ">
+                                    <img src="./assets/imgs/icons/about3.svg">
+                                </div>
+                                <div class="col-12 col-sm-10">
+                                    <h6 class="text-white">Worldwide coverage</h6>
+                                    <p class="text-white">Our team has established connections to resource producing countries all over the world.</p>
+                                </div>
+                            </div>
 
-                    </div>
-                    <div class="col-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-12 col-sm-1 pt-2">
-                                <i class="bi bi-yin-yang text-white"></i>
-                            </div>
-                            <div class="col-12 col-sm-10">
-                                <h5 class="text-white">Leading provider</h5>
-                                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
                         </div>
+                        <div class="col-6 col-sm-6 ">
+                            <div class="row">
+                                <div class="col-12 col-sm-2 pb-2 ">
+                                    <img src="./assets/imgs/icons/about4.svg">
+                                </div>
+                                <div class="col-12 col-sm-10">
+                                    <h6 class="text-white">Tailored Services</h6>
+                                    <p class="text-white">Providing technical and legal skills that are tailored to the client's needs.</p>
+                                </div>
+                            </div>
 
-                    </div>
-                    <div class="col-6 col-sm-6">
-                        <div class="row">
-                            <div class="col-12 col-sm-1 pt-2">
-                                <i class="bi bi-yin-yang text-white"></i>
-                            </div>
-                            <div class="col-12 col-sm-10">
-                                <h5 class="text-white">Leading provider</h5>
-                                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
                         </div>
-
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6">
+
+                </div>
 
             </div>
-            <div class="bg-banner"></div>
-
         </div>
+        <div class="bg-banner"></div>
     </section>
     <section id="section-3" class="container my-3">
-        <h1 class="text-center">Who we are</h1>
+        <h1 class="text-center "><label class="sub-borde-verde"> Who we are</label></h1>
 
         <div class="d-flex justify-content-around mb-4 row">
 
             <div class="col-12 col-sm-4 p-2 my-2 my-0">
-                <div class="imagen-1 team-img bg-primary ">
+                <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who1.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
                             <h5>Oil & Gas Expert</h5>
                             <div class="d-flex">
-
-                                <i class="bi bi-twitter mr-2"></i>
-                                <i class="bi bi-linkedin"></i>
+                                <img src="./assets/imgs/icons/in.svg">
                             </div>
                             <div class="d-flex flex-column mt-2">
 
@@ -233,20 +219,10 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 p-2 my-2 my-0">
-                <div class="imagen-1 team-img bg-primary ">
+                <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who2.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
-                            <h5>Oil & Gas Expert</h5>
-                            <div class="d-flex">
-
-                                <i class="bi bi-twitter mr-2"></i>
-                                <i class="bi bi-linkedin"></i>
-                            </div>
-                            <div class="d-flex flex-column mt-2">
-
-                                <label> <u>555-55-555</u></label>
-                                <label> <u>Jordan@rangecounselors.com</u></label>
-                            </div>
+                            
                         </div>
                         <div class="info-inferior">
                             <h2>Jordan Strouse</h2>
@@ -255,20 +231,10 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 p-2 my-2 my-0">
-                <div class="imagen-1 team-img bg-primary ">
+                <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who3.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
-                            <h5>Oil & Gas Expert</h5>
-                            <div class="d-flex">
-
-                                <i class="bi bi-twitter mr-2"></i>
-                                <i class="bi bi-linkedin"></i>
-                            </div>
-                            <div class="d-flex flex-column mt-2">
-
-                                <label> <u>555-55-555</u></label>
-                                <label> <u>Jordan@rangecounselors.com</u></label>
-                            </div>
+                             
                         </div>
                         <div class="info-inferior">
                             <h2>Jordan Strouse</h2>
@@ -281,9 +247,9 @@
     <section id="section-4" class="container my-3 mb-5">
         <div class="text-center">
 
-            <h4>RECENT NEWS</h4>
-            <h3>Our latest articles</h3>
-        </div>
+                <h4 class="c-verde font-weight-bold">RECENT NEWS</h4>
+                <h3>Our latest articles</h3>
+            </div>
         <div class="s4-imgs row">
             <div class="col-12 col-sm-4">
 

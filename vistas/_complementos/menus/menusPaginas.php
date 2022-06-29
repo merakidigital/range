@@ -25,9 +25,9 @@
     }
 </style>
 <div class="banner">
-    <div class="d-flex justify-content-between px-5 pt-5">
+    <div class="justify-content-between px-sm-5 pt-sm-5 z1 d-none d-sm-flex ">
 
-        <img src="" alt="" srcset="" width="50" height="50">
+    <img src="./assets/imgs/logo-header.png" width="60px" height="auto">
 
         <div class="row  align-items-center z1">
             <a href="./Home" class="c-principal px-5">Home</a>
