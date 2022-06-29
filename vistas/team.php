@@ -11,17 +11,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/mainMobile.css">
 </head>
-
-
-<style>
-    .degradado {
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 255, 1) 24%, rgba(228, 228, 228, 1) 24%, rgba(0, 212, 255, 1) 24%);
-    }
-
-    .degradado-final {
-        background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(254, 254, 255, 1) 52%, rgba(228, 228, 228, 1) 33%, rgba(0, 212, 255, 1) 70%);
-    }
-</style>
+ 
 
 <body id="p-team" class="bg-white ">
     <section id="section-1" class="my-5 container">
@@ -31,7 +21,7 @@
             <label class="c-darkblue">Our team comprises our core team, a pool of specialist consultants and a network of in-country law firms and advisors.</label>
         </div>
     </section>
-    <section class="mt-2">
+    <section class="mt-2 container">
         <div class="row">
             <div class="imagen col-12 col-sm-4 text-center">
                 <img class="rounded-circle" src="./assets/imgs/jordan.png">
@@ -56,7 +46,7 @@
 
                 <div class="px-5 pb-5 ">
 
-                    <img class="w-100" src="./assets/imgs/who1.png">
+                <img class="w-100" src="./assets/imgs/team1.png">
                 </div>
             </div>
             <div class="col-12 col-sm-6">
@@ -80,7 +70,7 @@
 
                 <div class="px-5 pb-5">
 
-                    <img class="w-100" src="./assets/imgs/perfil.jfif">
+                    <img class="w-100" src="./assets/imgs/team2.png">
                 </div>
             </div>
             <div class="col-12 col-sm-6">
@@ -103,8 +93,7 @@
             <div class="col-12 col-sm-6">
 
                 <div class="px-5 pb-5">
-
-                    <img class="w-100" src="./assets/imgs/perfil.jfif">
+                    <img class="w-100" src="./assets/imgs/team2.png">
                 </div>
             </div>
             <div class="col-12 col-sm-6">
@@ -122,31 +111,7 @@
                     <i class="bi bi-linkedin"></i>
                 </div>
             </div>
-        </div>
-        <div class="row mb-4pt-5  pt-5">
-            <div class="col-12 col-sm-6">
-
-                <div class="px-5 pb-5 degradado-final">
-
-                    <img class="w-100" src="./assets/imgs/perfil.jfif">
-                </div>
-            </div>
-            <div class="col-12 col-sm-6">
-                <div class="flex flex-column justify-content-center h-100 align-items-center py-5 p-5 p-sm-0">
-
-                    <h4>Jordan Strouse</h4>
-                    <h6>Oil & Gas Expert</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus sit,
-                        quo unde quis hic aliquid eligendi asperiores nam eos cumque error iusto, tempore minima sint soluta placeat quam molestias!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus sit,
-                        quo unde quis hic aliquid eligendi asperiores nam eos cumque error iusto, tempore minima sint soluta placeat quam molestias!</p>
-                    <h6>Social</h6>
-
-                    <i class="bi bi-twitter mr-2"></i>
-                    <i class="bi bi-linkedin"></i>
-                </div>
-            </div>
-        </div>
+        </div> 
     </section>
     <?php $this->vista("_complementos/menus/footer") ?>
 </body>
