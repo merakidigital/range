@@ -5,7 +5,20 @@
 .c-verde{
     color: #A2C454;
 }
- 
+.c-darkblue{
+    color: #303659;
+}
+.c-green{
+    color: #A2C454;
+
+}
+
+.bg-blue-primary{
+    background-color: #4B83CF45;
+}
+.bg-blue-dark{
+    background-color: #303659;
+}
 
 .bg-principal {
     background-color: #21456c;
@@ -13,6 +26,22 @@
 
 .bg-gris {
     background-color: #f4f4f4;
+}
+
+/**services**/
+
+
+/****/
+.bg-banner {
+    background-color: #0000008f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.z1 {
+    z-index: 1;
 }
 
 /***footer**/

@@ -17,8 +17,6 @@
         height: 100%;
     }
 
-    
-
     #img_1 {
         height: 400;
         width: 400;
@@ -39,32 +37,14 @@
         color: #fff
     }
 
-    .z1 {
-        z-index: 1;
-    }
-
-    .bg-banner {
-        background-color: #0000008f;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: 0;
-    }
-
     .banner {
         background-image: url("./assets/imgs/about.png");
     }
-
-  
-
-    
 
     .team-img {
         min-height: 320px;
         padding: 10px;
         color: #fff;
-
-
     }
 
     .s4-textos {
@@ -222,7 +202,7 @@
                 <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who2.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
-                            
+
                         </div>
                         <div class="info-inferior">
                             <h2>Jordan Strouse</h2>
@@ -234,7 +214,7 @@
                 <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who3.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
-                             
+
                         </div>
                         <div class="info-inferior">
                             <h2>Jordan Strouse</h2>
@@ -247,9 +227,9 @@
     <section id="section-4" class="container my-3 mb-5">
         <div class="text-center">
 
-                <h4 class="c-verde font-weight-bold">RECENT NEWS</h4>
-                <h3>Our latest articles</h3>
-            </div>
+            <h4 class="c-verde font-weight-bold">RECENT NEWS</h4>
+            <h3>Our latest articles</h3>
+        </div>
         <div class="s4-imgs row">
             <div class="col-12 col-sm-4">
 
