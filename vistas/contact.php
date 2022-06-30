@@ -100,11 +100,11 @@
             <div id="s-2_2" class="col-12 col-sm-6">
                 <div class="container">
                     <div class="acordeon  px-5 ">
-                        <div class="acordeon-titulo font-weight-bold" data-respuesta="1">
+                        <div class="acordeon-titulo font-weight-bold active" data-respuesta="1">
                             Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="1">-</span>
                         </div>
-                        <div id="renglon__1" class="acordeon-contenido p-3">
+                        <div id="renglon__1" class="acordeon-contenido p-3" style="display: block;">
                             Working with advanced technology and know-how businesses in the energy transition, HFI is a driving force for international business expansion.
 
                         </div>

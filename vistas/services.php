@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= isset($titulo) ? $titulo : "Service"  ?></title>
+    <script src="<?= $this->base_url() ?>/assets/local/jquery-3.5.1.slim.min.js"></script>
+    <script src="<?= $this->base_url() ?>/assets/local/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/mainMobile.css">
+    <script src="./assets/js/app.js"></script>
 </head>
 
 <style>
@@ -64,7 +67,7 @@
 
     <section id="section-2" class=" container">
         <div class="row">
-            <div class="col-12 col-sm-4 bg-blue-primary">
+            <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/oil-rig.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
@@ -72,7 +75,7 @@
                     <label>We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 ">
+            <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/acquisitions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
@@ -80,7 +83,7 @@
                     <label>We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
                 </div>
             </div>
-            <div class="col-12 col-sm-4 ">
+            <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/transactions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
@@ -141,36 +144,36 @@
             <div id="s-4_2" class="col-12 col-sm-6">
                 <div class="container pr-3 plr-sm-5">
                     <div class="acordeon  px-sm-5 ">
-                        <div class="acordeon-titulo font-weight-bold activo">
+                        <div  data-respuesta="1" class="acordeon-titulo font-weight-bold active" >
                             First-Class investing solutions
-                            <span class="font-weight-bold" data-acordeon="1">-</span>
+                            <span class="font-weight-bold iconoAcordeon" data-acordeon="1">-</span>
                         </div>
-                        <div id="renglon__1" class="acordeon-contenido p-3 activo">
+                        <div id="renglon__1" class="acordeon-contenido p-3"style="display: block;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quae totam cupiditate fugit! Nulla cupiditate saepe,
                             numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
                         </div>
-                        <div class="acordeon-titulo mt-2 font-weight-bold ">
+                        <div  data-respuesta="2" class="acordeon-titulo mt-2 font-weight-bold ">
                             First-Class investing solutions
-                            <span class="font-weight-bold" data-acordeon="2">+</span>
+                            <span class="font-weight-bold iconoAcordeon" data-acordeon="2">+</span>
                         </div>
                         <div id="renglon__2" class="acordeon-contenido p-3 ">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quae totam cupiditate fugit! Nulla cupiditate saepe,
                             numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
                         </div>
-                        <div class="acordeon-titulo mt-2 font-weight-bold ">
+                        <div  data-respuesta="3" class="acordeon-titulo mt-2 font-weight-bold ">
                             First-Class investing solutions
-                            <span class="font-weight-bold" data-acordeon="3">+</span>
+                            <span class="font-weight-bold iconoAcordeon" data-acordeon="3">+</span>
                         </div>
                         <div id="renglon__3" class="acordeon-contenido p-3 ">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quae totam cupiditate fugit! Nulla cupiditate saepe,
                             numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
                         </div>
-                        <div class="acordeon-titulo mt-2 font-weight-bold ">
+                        <div  data-respuesta="4" class="acordeon-titulo mt-2 font-weight-bold ">
                             First-Class investing solutions
-                            <span class="font-weight-bold" data-acordeon="4">+</span>
+                            <span class="font-weight-bold iconoAcordeon" data-acordeon="4">+</span>
                         </div>
                         <div id="renglon__4" class="acordeon-contenido p-3 ">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.

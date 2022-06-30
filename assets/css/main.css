@@ -33,7 +33,10 @@
 }
 
 /**services**/
-
+.cart-blue:hover{
+    
+    background-color: #4B83CF45;
+}
 
 /****/
 .bg-banner {
@@ -242,6 +245,9 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #90979f;
+}
+ .acordeon-titulo.active { 
+    background-color: #4B83CF45;
 }
 
 .pagina .acordeon-titulo span {
