@@ -54,6 +54,14 @@
     background-image: url("../imgs/team.png");
     background-size: contain;
 }
+/**contact**/
+#p-contact .banner {
+    background-image: url("../imgs/team.png");
+    background-size: contain;
+}
+.acordeon-titulo{
+    cursor: pointer;
+}
 
 /***footer**/
 [class^="bi-"]::before,
