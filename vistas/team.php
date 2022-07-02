@@ -16,27 +16,27 @@
 <body id="p-team" class="bg-white ">
     <section id="section-1" class="my-5 container">
         <div class="text-center">
-            <h5 class="c-green">OUR SPECIALISTS</h5>
-            <h3 class="c-darkblue">Meet Our Leadership</h3>
-            <label class="c-darkblue">Our team comprises our core team, a pool of specialist consultants and a network of in-country law firms and advisors.</label>
+            <h5 class="c-green font-weight-bold">OUR SPECIALISTS</h5>
+            <h2 class="c-darkblue font-weight-bold">Meet our core team</h2>
+            <label class="c-darkblue small-text">Our team comprises our core team, a pool of specialist consultants and a network of in-country law firms and advisors.</label>
         </div>
     </section>
     <section class="mt-2 container">
         <div class="row">
             <div class="imagen col-12 col-sm-4 text-center">
                 <img class="rounded-circle" src="./assets/imgs/jordan.png">
-                <h4 class="c-darkblue">Jordan Strouse</h4>
-                <h6 class="c-darkblue">Oil & Gas Attorney</h6>
+                <h3 class="c-darkblue font-weight-bold">Jordan Strouse</h3>
+                <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
             <div class="imagen col-12 col-sm-4 text-center">
                 <img class="rounded-circle" src="./assets/imgs/john.png">
-                <h4 class="c-darkblue">John Doe</h4>
-                <h6 class="c-darkblue">Oil & Gas Attorney</h6>
+                <h3 class="c-darkblue font-weight-bold">John Doe</h3>
+                <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
             <div class="imagen col-12 col-sm-4 text-center">
                 <img class="rounded-circle" src="./assets/imgs/jane.png">
-                <h4 class="c-darkblue">Jane Doe</h4>
-                <h6 class="c-darkblue">Oil & Gas Attorney</h6>
+                <h3 class="c-darkblue font-weight-bold">Jane Doe</h3>
+                <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
         </div>
     </section>
@@ -52,13 +52,13 @@
             <div class="col-12 col-sm-6">
                 <div class="flex flex-column justify-content-center h-100 align-items-center px-5 p-sm-0 c-darkblue">
 
-                    <h4 class="font-weight-bold c-darkblue">Jordan Strouse</h4>
-                    <h6 class="c-darkblue">Oil & Gas Expert</h6>
-                    <p >Jordan's primary expertise is as transactional and business counsel in the oil services and energy technologies industries, but has counseled start-ups, entrepreneurs, investors, private equity-backed ventures and growth stage portfolio companies with respect to acquisitions and international contracting. His sector knowledge in oil services and energy technologies as well as his global experience structuring cross-border and multi-cultural transactions in more than 30 countries attracts global energy/oil clients and private equity firms to represent their interests.
+                    <h3 class="font-weight-bold c-darkblue">Jordan Strouse</h3>
+                    <h6 class="c-darkblue medium-text">Oil & Gas Expert</h6>
+                    <p class="small-text">Jordan's primary expertise is as transactional and business counsel in the oil services and energy technologies industries, but has counseled start-ups, entrepreneurs, investors, private equity-backed ventures and growth stage portfolio companies with respect to acquisitions and international contracting. His sector knowledge in oil services and energy technologies as well as his global experience structuring cross-border and multi-cultural transactions in more than 30 countries attracts global energy/oil clients and private equity firms to represent their interests.
                     </p>
-                    <p>Before starting Range Counselors, Jordan worked as in-house counsel for a publicly traded international land and offshore drilling contractor, as General Counsel of a private equity backed oil equipment venture, was based in Cape Town, South Africa as Regional General Counsel for one of the world’s largest oilfield service manufacturers and service providers before entering into private practice where he acts as outside general counsel to oil service companies, oilfield manufacturers, oil service technology and software providers, modular hybrid power providers, international marketing companies, private equity funds and venture capital investors.
+                    <p class="small-text">Before starting Range Counselors, Jordan worked as in-house counsel for a publicly traded international land and offshore drilling contractor, as General Counsel of a private equity backed oil equipment venture, was based in Cape Town, South Africa as Regional General Counsel for one of the world’s largest oilfield service manufacturers and service providers before entering into private practice where he acts as outside general counsel to oil service companies, oilfield manufacturers, oil service technology and software providers, modular hybrid power providers, international marketing companies, private equity funds and venture capital investors.
                     </p>
-                    <h6>Social</h6>
+                    <h4 class="font-weight-bold">Social</h6>
 
                     <i class="bi bi-twitter mr-2"></i>
                     <i class="bi bi-linkedin"></i>

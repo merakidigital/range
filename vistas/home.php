@@ -23,11 +23,11 @@
             <i id="btnMenu" class="fas fa-align-justify" style="color:#fff;display:none"></i>
         </div> 
         <div id="nav-content-items"  class="row font-weight-bold h-auto align-items-center ">
-            <a href="./Home" class="c-principal px-5">Home</a>
-            <a href="./About" class="c-principal px-5">About</a>
-            <a href="./Services" class="c-principal px-5">Services</a>
-            <a href="./Team" class="c-principal px-5">Team</a>
-            <a href="./Contact" class="c-principal px-5">Contact</a>
+            <a href="./Home" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">HOME</a>
+            <a href="./About" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">ABOUT</a>
+            <a href="./Services" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">SERVICES</a>
+            <a href="./Team" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">TEAM</a>
+            <a href="./Contact" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">CONTACT</a>
         </div>
     </nav>
     <div class="banner position-relative">
@@ -35,8 +35,8 @@
 
         <div class="d-flex justify-content-center align-items-center flex-column  h-100">
 
-            <h1 class="display-1 text-white z1 font-weight-bold text-center">Range Counselors</h1>
-            <h4 class="text-white z1 text-center ">A boutique commercial & transactional law firm</h4>
+            <h1 class="text-white z1 font-weight-bold text-center">Range Counselors</h1>
+            <h4 class="text-white z1 text-center medium-text">A boutique commercial & transactional law firm</h4>
 
 
             <div class="bg-banner"></div>
@@ -50,24 +50,24 @@
                 <div class="text-center d-flex flex-column justify-content-between align-items-start h-100 p-3 p-sm-5">
 
                     <img src="./assets/imgs/icons/oil-rig.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5 font-weight-bold text-left">Oilfield Services</h5>
-                    <label class=" text-left">We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
+                    <h4 class="my-4 font-weight-bold text-left">Oilfield Services</h4>
+                    <label class=" text-left small-text">We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
                 <div class="h-s-1-bordes text-center d-flex flex-column justify-content-between align-items-start h-100 p-3 p-sm-5">
 
                     <img src="./assets/imgs/icons/acquisitions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5 font-weight-bold text-left">Acquisitions,Diverstitures & Joint Ventures</h5>
-                    <label class=" text-left">We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
+                    <h4 class="my-4 font-weight-bold text-left">Acquisitions,Diverstitures & Joint Ventures</h4>
+                    <label class=" text-left small-text">We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
                 </div>
             </div>
             <div class="col-12 col-md-4 mt-3 mt-sm-0">
                 <div class="h-s-1-bordes text-center d-flex flex-column justify-content-between align-items-start h-100 p-3 p-sm-5 ">
 
                     <img src="./assets/imgs/icons/transactions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
-                    <h5 class="my-5 font-weight-bold text-left">Commercial & International Transactions</h5>
-                    <label class=" text-left">Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
+                    <h4 class="my-4 font-weight-bold text-left">Commercial & International Transactions</h4>
+                    <label class=" text-left small-text">Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
                 </div>
             </div>
 
@@ -79,21 +79,21 @@
             <div class="col-12 col-md-6 ">
                 <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
 
-                    <h1>Why choose us</h1>
+                    <h2 class="font-weight-bold text-left">Why choose us</h2>
 
 
                     <div class=" d-flex flex-column justify-content-start">
-                        <h5 class="font-weight-bold"> Industry-specific experience</h5>
-                        <label>Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
+                        <h4 class="font-weight-bold"> Industry-specific experience</h4>
+                        <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
                         </label>
                     </div>
                     <div class=" d-flex flex-column justify-content-start">
-                        <h5 class="font-weight-bold">A team of legal professionals</h5>
-                        <label>Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
+                        <h4 class="font-weight-bold">A team of legal professionals</h4>
+                        <label class="small-text">Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
                     </div>
                     <div class=" d-flex flex-column justify-content-start">
-                        <h5 class="font-weight-bold">International Network</h5>
-                        <label>Our team has established connections to resource producing countries all over the world. </label>
+                        <h4 class="font-weight-bold">International Network</h4>
+                        <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
                     </div>
                     <button class="rounded-pill bg-white   py-2 px-5 font-weight-bold">GET IN TOUCH</button>
 
@@ -239,15 +239,15 @@
 
             </div>
             <div class="col-12 col-sm-6  d-flex flex-column justify-content-center align-items-start">
-                <h1 class="font-weight-bold">Specialty Practice:<br>
-                    Oilfield Services</h1>
-                <p>With transactions successfully completed in more than 50 countries, the Range professionals understand the needs of oilfield service companies, the reality of industry practice risk allocation and, most importantly, how to “get things done” in different jurisdictions. </p>
-                <p>The Range team has the ability to tap it’s unique oilfield network of legal, finance and operational contacts around the world for advice on contracting, handling disputes and starting/exiting business operations in-country.</p>
+                <h2 class="font-weight-bold">Specialty Practice:<br>
+                    Oilfield Services</h2>
+                <p class="small-text">With transactions successfully completed in more than 50 countries, the Range professionals understand the needs of oilfield service companies, the reality of industry practice risk allocation and, most importantly, how to “get things done” in different jurisdictions. </p>
+                <p class="small-text">The Range team has the ability to tap it’s unique oilfield network of legal, finance and operational contacts around the world for advice on contracting, handling disputes and starting/exiting business operations in-country.</p>
             </div>
         </div>
     </section>
     <section class="mt-4 container">
-        <h1 class="text-center">Featured clients</h1>
+        <h2 class="text-center font-weight-bold">Featured clients</h2>
         <div class="row p-2 mb-5 h-25  w-100 m-0">
 
             <img class="col-6 col-sm-3  w-100 p-2" src="./assets/imgs/home1.jpg">

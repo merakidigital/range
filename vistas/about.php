@@ -65,8 +65,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
-                <h5>WHY RANGE COUNSELORS</h5>
-                <h1 class="text-mobile-1">With over 10 years of experience helping business striving for excellence</h1>
+                <h5 class="font-weight-bold">WHY RANGE COUNSELORS</h5>
+                <h2 class="text-mobile-1 font-weight-bold">With over 10 years of experience helping business striving for excellence</h2>
                 <div class="d-flex mt-5">
                     <div class="d-flex flex-wrap mb-2 mb-0">
                         <div class="col-12 col-sm-6 border-left ">
@@ -77,8 +77,8 @@
 
                                 </div>
                                 <div class="col-8">
-                                    <h1>100m+</h1>
-                                    <h6>Funcing secured</h6>
+                                    <h3 class="font-weight-bold">100m+</h3>
+                                    <h6 class="xsmall-text">USD of Funding secured</h6>
                                 </div>
                             </div>
                         </div>
@@ -90,8 +90,8 @@
 
                                 </div>
                                 <div class="col-8">
-                                    <h1>100+</h1>
-                                    <h6>Deals closed across the world</h6>
+                                    <h3 class="font-weight-bold">100+</h3>
+                                    <h6 class="xsmall-text">Deals closed across the world</h6>
                                 </div>
                             </div>
                         </div>
@@ -111,8 +111,8 @@
 
                 <div class="col-12 col-sm-6 d-flex flex-column justify-content-center align-items-space h-100 z1 py-5">
 
-                    <h3 class=" text-white font-weight-bold  ">We take business to new markets </h3>
-                    <p class="text-white">We support clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services, combining specialist know-how, connections, local partners and execution expertise.</p>
+                    <h2 class=" text-white font-weight-bold  ">We take business to new markets </h2>
+                    <p class="text-white small-text">We support clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services, combining specialist know-how, connections, local partners and execution expertise.</p>
                     <div class="row mt-5">
                         <div class="col-6 col-sm-6  ">
                             <div class="row">
@@ -121,8 +121,8 @@
                                     <img src="./assets/imgs/icons/about1.svg">
                                 </div>
                                 <div class="col-12 col-sm-10 ">
-                                    <h6 class="text-white">Market knowledge</h6>
-                                    <p class="text-white">We develop legal strategies for domestic and international markets.</p>
+                                    <h4 class="text-white font-weight-bold">Market knowledge</h4>
+                                    <p class="text-white xsmall-text">We develop legal strategies for domestic and international markets.</p>
                                 </div>
                             </div>
 
@@ -133,8 +133,8 @@
                                     <img src="./assets/imgs/icons/about2.svg">
                                 </div>
                                 <div class="col-12 col-sm-10">
-                                    <h6 class="text-white">Industry-specific</h6>
-                                    <p class="text-white">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.</p>
+                                    <h4 class="text-white font-weight-bold">Industry-specific</h4>
+                                    <p class="text-white xsmall-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.</p>
                                 </div>
                             </div>
 
@@ -145,8 +145,8 @@
                                     <img src="./assets/imgs/icons/about3.svg">
                                 </div>
                                 <div class="col-12 col-sm-10">
-                                    <h6 class="text-white">Worldwide coverage</h6>
-                                    <p class="text-white">Our team has established connections to resource producing countries all over the world.</p>
+                                    <h4 class="text-white font-weight-bold">Worldwide coverage</h4>
+                                    <p class="text-white xsmall-text">Our team has established connections to resource producing countries all over the world.</p>
                                 </div>
                             </div>
 
@@ -157,8 +157,8 @@
                                     <img src="./assets/imgs/icons/about4.svg">
                                 </div>
                                 <div class="col-12 col-sm-10">
-                                    <h6 class="text-white">Tailored Services</h6>
-                                    <p class="text-white">Providing technical and legal skills that are tailored to the client's needs.</p>
+                                    <h4 class="text-white font-weight-bold">Tailored Services</h4>
+                                    <p class="text-white xsmall-text">Providing technical and legal skills that are tailored to the client's needs.</p>
                                 </div>
                             </div>
 
@@ -174,7 +174,7 @@
         <div class="bg-banner"></div>
     </section>
     <section id="section-3" class="container my-3">
-        <h1 class="text-center "><label class="sub-borde-verde"> Who we are</label></h1>
+        <h2 class="text-center "><label class="sub-borde-verde font-weight-bold"> Who we are</label></h2>
 
         <div class="d-flex justify-content-around mb-4 row">
 
@@ -182,18 +182,18 @@
                 <div class="imagen-1 team-img " style="background-image: url(./assets/imgs/who1.png) ;">
                     <div class="iconos d-flex flex-column h-100 justify-content-between">
                         <div class="info-superior">
-                            <h5>Oil & Gas Expert</h5>
+                            <h5 class="medium-text">Oil & Gas Expert</h5>
                             <div class="d-flex">
                                 <img src="./assets/imgs/icons/in.svg">
                             </div>
                             <div class="d-flex flex-column mt-2">
 
-                                <label> <u>555-55-555</u></label>
-                                <label> <u>Jordan@rangecounselors.com</u></label>
+                                <label> <u class="small-text">555-55-555</u></label>
+                                <label> <u class="small-text">Jordan@rangecounselors.com</u></label>
                             </div>
                         </div>
                         <div class="info-inferior">
-                            <h2>Jordan Strouse</h2>
+                            <h3 class="font-weight-bold">Jordan Strouse</h3>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
 
                         </div>
                         <div class="info-inferior">
-                            <h2>Jordan Strouse</h2>
+                            <h3 class="font-weight-bold">Jane Doe</h3>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
 
                         </div>
                         <div class="info-inferior">
-                            <h2>Jordan Strouse</h2>
+                            <h3 class="font-weight-bold">John Doe</h3>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@
         <div class="text-center">
 
             <h4 class="c-verde font-weight-bold">RECENT NEWS</h4>
-            <h3>Our latest articles</h3>
+            <h2 class=" font-weight-bold">Our latest articles</h2>
         </div>
         <div class="s4-imgs row">
             <div class="col-12 col-sm-4">

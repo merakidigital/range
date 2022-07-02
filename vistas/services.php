@@ -61,8 +61,8 @@
 <body id="p-services" class="bg-white ">
     <section id="section-1" class=" text-center my-5 container">
         <h5 class="font-weight-bold c-darkblue">OUR SERVICES</h5>
-        <h1 class="c-darkblue">We offer expertise and <span class="c-green">specialized services</span></h1>
-        <label>Range Counselors supports clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services.</label>
+        <h2 class="c-darkblue font-weight-bold">We offer expertise and <span class="c-green">specialized services</span></h2>
+        <label class="small-text">Range Counselors supports clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services.</label>
     </section>
 
     <section id="section-2" class=" container">
@@ -71,24 +71,24 @@
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/oil-rig.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Oilfield Services</h5>
-                    <label>We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
+                    <h4 class="font-weight-bold">Oilfield Services</h4>
+                    <label class="small-text">We provide comprehensive oil and gas industry law services, including contract review, lease negotiations, and drafting agreements.</label>
                 </div>
             </div>
             <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/acquisitions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Acquisitions, Diversitures & Joint Ventures</h5>
-                    <label>We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
+                    <h4 class="font-weight-bold">Acquisitions, Diversitures & Joint Ventures</h4>
+                    <label class="small-text">We're focused on helping our clients and creating value in every major category of deal across every investment stage and geography.</label>
                 </div>
             </div>
             <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
                     <img src="./assets/imgs/icons/transactions.svg" alt="Services" sizes="" srcset="" class="bg-black" width="50" height="50">
                     <i class="bi bi-linkedin py-2"></i>
-                    <h5>Commercial & International Transactions</h5>
-                    <label>Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
+                    <h4 class="font-weight-bold">Commercial & International Transactions</h4>
+                    <label class="small-text">Whether you need help in drafting a commercial contract, setting up a joint venture or closing an acquisition, our team is ready for the challenge.</label>
                 </div>
             </div>
         </div>
@@ -98,20 +98,20 @@
 
             <div class="row m-0 ">
                 <div class="col-12 col-sm-3 p-5 z1">
-                    <h1>1,470 +</h1>
-                    <h3>Happy Clients</h3>
+                    <h2 class="font-weight-bold">1,470 +</h2>
+                    <h4>Happy Clients</h4>
                 </div>
                 <div class="col-12 col-sm-3 p-5 z1">
-                    <h1>1,200 +</h1>
-                    <h3>Projects Completed</h3>
+                    <h2 class="font-weight-bold">1,200 +</h2>
+                    <h4>Projects Completed</h4>
                 </div>
                 <div class="col-12 col-sm-3 p-5 z1">
-                    <h1>25 +</h1>
-                    <h3>Years of Experience</h3>
+                    <h2 class="font-weight-bold">25 +</h2>
+                    <h4>Years of Experience</h4>
                 </div>
                 <div class="col-12 col-sm-3 p-5 z1">
-                    <h1>100M+</h1>
-                    <h3>USD Funding Secured</h3>
+                    <h2 class="font-weight-bold">100M+</h2>
+                    <h4>USD Funding Secured</h4>
                 </div>
             </div>
 
@@ -126,9 +126,9 @@
             <div id="s-4_1" class="col-12 col-sm-6">
                 <div class="container pl-3 pl-sm-5">
 
-                    <label class="c-green font-weight-bold">HOW WE WORK</label>
-                    <h4>Let us lead your business to new markets</h4>
-                    <p>Working with advanced technology and know-how businesses in the energy transition, Range is a driving force for international business expansion.</p>
+                    <h5 class="c-green font-weight-bold">HOW WE WORK</h5>
+                    <h2 class="font-weight-bold">Let us lead your business to new markets</h2>
+                    <p class="small-text">Working with advanced technology and know-how businesses in the energy transition, Range is a driving force for international business expansion.</p>
                 </div>
                 <div class="row">
 
@@ -146,7 +146,7 @@
                     <div class="acordeon  px-sm-5 ">
                         <div  data-respuesta="1" class="acordeon-titulo font-weight-bold active" >
                             First-Class investing solutions
-                            <span class="font-weight-bold iconoAcordeon" data-acordeon="1">-</span>
+                            <h4 class="font-weight-bold iconoAcordeon" data-acordeon="1">-</h4>
                         </div>
                         <div id="renglon__1" class="acordeon-contenido p-3"style="display: block;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
