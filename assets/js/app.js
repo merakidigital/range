@@ -11,4 +11,13 @@ $(function () {
         $(this).addClass("active");
         console.log("#renglon__" + id)
     });
+
+    $("#btnMenu").on("click",function(){ 
+        if($("#navMenu").hasClass("active")){
+            $("#navMenu").removeClass("active"); 
+        }else{
+            $("#navMenu").addClass("active");
+
+        }
+    })
 })

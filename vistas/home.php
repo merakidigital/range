@@ -7,18 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./assets/local/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="<?= $this->base_url() ?>/assets/local/jquery-3.5.1.slim.min.js"></script>
+    <script src="<?= $this->base_url() ?>/assets/local/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/mainMobile.css">
+    <script src="./assets/js/app.js"></script>
 </head>
 
 <body id="p-home" class="bg-white h-100">
-    <nav class="  w-100 p-4  px-5   d-flex justify-content-between px-5 pt-5">
+    <nav id="navMenu" class="  w-100    pb-5 pt-2   d-flex justify-content-between p-0 px-sm-5 pt-sm-5">
 
-        <div class="">
-            <img src="./assets/imgs/logo-header.png" width="60px" height="auto">
-        </div>
-        <div class="row font-weight-bold h-100 align-items-center d-none d-sm-block">
+        <div class="content-logo-home px-4 px-sm-0">
+            <img src="./assets/imgs/logo-header.png" width="60px" height="auto" id="logo-home">
+            <i id="btnMenu" class="fas fa-align-justify" style="color:#fff;display:none"></i>
+        </div> 
+        <div id="nav-content-items"  class="row font-weight-bold h-auto align-items-center ">
             <a href="./Home" class="c-principal px-5">Home</a>
             <a href="./About" class="c-principal px-5">About</a>
             <a href="./Services" class="c-principal px-5">Services</a>
