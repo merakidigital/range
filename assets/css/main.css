@@ -95,7 +95,7 @@ h5{
 /***PRINCIPALES***/
 
 .c-principal {
-    color: #21456c;
+    color: #303659;
 }
 
 .c-verde {
@@ -178,7 +178,7 @@ h5{
 .f-title::before {
     content: "";
     height: 100%;
-    border: solid 4px #21456c;
+    border: solid 4px #5A7FFF;
     position: relative;
     left: -10px;
 
