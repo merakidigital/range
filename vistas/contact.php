@@ -16,7 +16,7 @@
 </head>
 
 <body id="p-contact" class="bg-white pagina">
-    <section class="section-1   container">
+    <section class="section-1 mt-7 container">
         <div class="row">
 
             <div class="col-12 col-sm-6 border-right">

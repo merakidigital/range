@@ -104,7 +104,7 @@
 
         </div>
     </section>
-    <section id="section-2" class="imagen-completa ">
+    <section id="section-2" class="imagen-completa mt-7">
         <div class="container">
 
             <div class="row h-100 m-0 ">
@@ -173,7 +173,7 @@
         </div>
         <div class="bg-banner"></div>
     </section>
-    <section id="section-3" class="container my-3">
+    <section id="section-3" class="container mt-7">
         <h2 class="text-center "><label class="sub-borde-verde font-weight-bold"> Who we are</label></h2>
 
         <div class="d-flex justify-content-around mb-4 row">
@@ -224,7 +224,7 @@
             </div>
         </div>
     </section>
-    <section id="section-4" class="container my-3 mb-5">
+    <section id="section-4" class="container mt-9 mb-5">
         <div class="text-center">
 
             <h4 class="c-verde font-weight-bold">RECENT NEWS</h4>

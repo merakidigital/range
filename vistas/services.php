@@ -59,13 +59,13 @@
 
 
 <body id="p-services" class="bg-white ">
-    <section id="section-1" class=" text-center my-5 container">
+    <section id="section-1" class=" text-center mt-7  container">
         <h5 class="font-weight-bold c-darkblue">OUR SERVICES</h5>
         <h2 class="c-darkblue font-weight-bold">We offer expertise and <span class="c-green">specialized services</span></h2>
         <label class="small-text">Range Counselors supports clients to establish, expand and divest their businesses through strategic, value-added consulting and legal services.</label>
     </section>
 
-    <section id="section-2" class=" container">
+    <section id="section-2" class="mt-3 mb-7 container">
         <div class="row">
             <div class="col-12 col-sm-4 cart-blue ">
                 <div class="p-3 pt-4 d-flex flex-column">
@@ -120,7 +120,7 @@
         <div class="bg-banner"></div>
 
     </section>
-    <section class="section-4 mb-5">
+    <section class="section-4 mt-9 mb-5">
         <div class="row m-0">
 
             <div id="s-4_1" class="col-12 col-sm-6">

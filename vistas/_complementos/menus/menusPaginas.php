@@ -27,14 +27,14 @@
 <div class="banner">
     <div class="justify-content-between px-sm-5 pt-sm-5 z1 d-none d-sm-flex ">
 
-    <img src="./assets/imgs/logo-header.png" width="60px" height="auto">
+    <img src="./assets/imgs/logo-header.png" width="100px" height="auto">
 
         <div class="row  align-items-center z1">
-            <a href="./Home" class="c-principal px-5">Home</a>
-            <a href="./About" class="c-principal px-5">About</a>
-            <a href="./Services" class="c-principal px-5">Services</a>
-            <a href="./Team" class="c-principal px-5">Team</a>
-            <a href="./Contact" class="c-principal px-5">Contact</a>
+            <a href="./Home" class="c-principal xsmall-text font-weight-bold px-5">HOME</a>
+            <a href="./About" class="c-principal xsmall-text font-weight-bold px-5">ABOUT</a>
+            <a href="./Services" class="c-principal xsmall-text font-weight-bold px-5">SERVICES</a>
+            <a href="./Team" class="c-principal xsmall-text font-weight-bold px-5">TEAM</a>
+            <a href="./Contact" class="c-principal xsmall-text font-weight-bold px-5">CONTACT</a>
         </div>
     </div>
     <div class="d-flex justify-content-center align-items-center h-100">

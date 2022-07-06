@@ -82,16 +82,16 @@
                     <h2 class="font-weight-bold text-left">Why choose us</h2>
 
 
-                    <div class=" d-flex flex-column justify-content-start">
+                    <div class=" d-flex flex-column justify-content-start mt-3">
                         <h4 class="font-weight-bold"> Industry-specific experience</h4>
                         <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
                         </label>
                     </div>
-                    <div class=" d-flex flex-column justify-content-start">
+                    <div class=" d-flex flex-column justify-content-start mt-3">
                         <h4 class="font-weight-bold">A team of legal professionals</h4>
                         <label class="small-text">Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
                     </div>
-                    <div class=" d-flex flex-column justify-content-start">
+                    <div class=" d-flex flex-column justify-content-start mt-3">
                         <h4 class="font-weight-bold">International Network</h4>
                         <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
                     </div>
@@ -106,7 +106,7 @@
 
         </div>
     </section>
-    <section id="section3" class="mt-5 container">
+    <section id="section3" class="mt-7 container">
         <div class="row h-100 w-100 m-0">
 
             <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
@@ -135,7 +135,7 @@
                                     "width": 80,
                                     "height": 40,
                                     "pixelMapperLogo": true,
-                                    "imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg",
+                                   
                                     "url": "http://www.amcharts.com"
                                 },
                                 {
@@ -192,11 +192,11 @@
                         },
                         "areasSettings": {
                             "color": "rgba(130,130,130,1)",
-                            "outlineColor": "rgba(255,255,255,1)",
-                            "rollOverOutlineColor": "rgba(255,255,255,1)",
+                            "outlineColor": "rgba(255,255,255,0)",
+                            "rollOverOutlineColor": "rgba(255,255,255,0)",
                             "rollOverBrightness": 20,
                             "selectedBrightness": 20,
-                            "selectable": true,
+                            "selectable": false,
                             "unlistedAreasAlpha": 0,
                             "unlistedAreasOutlineAlpha": 0
                         },
@@ -211,13 +211,13 @@
                             "selectable": true
                         },
                         "linesSettings": {
-                            "color": "rgba(130,130,130,1)",
+                            "color": "rgba(130,130,130,0)",
                             "selectable": true,
                             "rollOverBrightness": 20,
                             "selectedBrightness": 20
                         },
                         "zoomControl": {
-                            "zoomControlEnabled": true,
+                            "zoomControlEnabled": false,
                             "homeButtonEnabled": false,
                             "panControlEnabled": false,
                             "right": 38,
@@ -246,7 +246,7 @@
             </div>
         </div>
     </section>
-    <section class="mt-4 container">
+    <section class="mt-7 container">
         <h2 class="text-center font-weight-bold">Featured clients</h2>
         <div class="row p-2 mb-5 h-25  w-100 m-0">
 
