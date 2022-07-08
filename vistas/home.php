@@ -79,7 +79,7 @@
             <div class="col-12 col-md-6 bg-blue-dark">
                 <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
 
-                    <h1 class="font-weight-bold text-left">Why choose us <span style="display: block;border:solid;width:25%;"></span></h1>
+                    <h2 class="font-weight-bold text-left">Why choose us <span style="display: block;border:solid;width:25%;"></span></h2>
 
 
                     <div class=" d-flex flex-column justify-content-start mt-3 w-100">
