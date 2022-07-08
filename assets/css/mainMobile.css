@@ -14,21 +14,12 @@
         bottom: -15;
     }
 }
-.active{
-    -webkit-transition: min-height 2s; 
-    -moz-transition: min-height 2s; 
-    -ms-transition: min-height 2s; 
-    -o-transition: min-height 2s; 
-    transition: min-height 2s;   
-    overflow: hidden;
-    /*height: 0" not work with css transitions*/
-    min-height: 500px;
-  }
-  
+ 
 /***520***/
 @media(max-width:520px) {
     #btnMenu {
         display: block !important;
+        color: #fff;
     }
 
     #p-home nav {
@@ -40,10 +31,7 @@
         align-items: center; 
         transition: max-height 0.15s ease-out;
         overflow: hidden;
-    }
-
-   
-
+    } 
     .content-logo-home {
         width: 100%;
         display: flex;
@@ -75,6 +63,9 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        max-height:0px;
+        overflow: hidden;
+        transition: max-height .5s ease-in;
     }
 
     #nav-content-items a {
@@ -132,6 +123,44 @@
         padding-top: 2%;
         padding-bottom: 2%;
     }
+
+    .mobile-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #img2 img{
+        position: inherit;
+        
+    width: 100%;
+    }
+
+    /***MENU GENERAL DE LAS PAGINAS**/
+
+    #navMenu_general{
+        flex-direction: column;
+    }
+    #navMenu_general {
+        background: #000;
+    }
+    #navMenu_general #btnMenu{
+        
+    } 
+    #nav-content-items a{
+        color: #fff;
+    }
+    .banner.menu_active {
+        height: auto;
+    }
+    .banner.menu_active  #nav-content-items {  
+        height: auto;
+        overflow: hidden;
+        max-height:100vh;
+        transition: max-height .5s ease-in;
+    }
+    #s-2_1 h1{
+        text-align: center;
+    }
+
 }
 
 /***720***/

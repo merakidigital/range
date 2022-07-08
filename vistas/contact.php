@@ -91,7 +91,7 @@
         <div class="row m-0">
 
             <div id="s-2_1" class="col-12 col-sm-6">
-                <div class="container p-5">
+                <div class="container p-1 p-sm-5">
                     <h1 class="c-darkblue font-weight-bold">Frequently</h1>
                     <h1 class="c-darkblue font-weight-bold">Asked</h1>
                     <h1 class="c-darkblue font-weight-bold">Questions.</h1>
@@ -99,20 +99,20 @@
             </div>
             <div id="s-2_2" class="col-12 col-sm-6">
                 <div class="container">
-                    <div class="acordeon  px-5 ">
+                    <div class="acordeon  p-1 px-sm-5">
                         <div class="acordeon-titulo font-weight-bold active" data-respuesta="1">
                             Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="1">-</span>
                         </div>
-                        <div id="renglon__1" class="acordeon-contenido p-3 small-text" style="display: block;">
-                            Working with advanced technology and know-how businesses in the energy transition, Range Counselors is a driving force for international business expansion.
+                        <div id="renglon__1" class="acordeon-contenido  small-text mostrarContenido"  >
+                           <p> Working with advanced technology and know-how businesses in the energy transition, Range Counselors is a driving force for international business expansion.</p>
 
                         </div>
                         <div class="acordeon-titulo mt-2 font-weight-bold " data-respuesta="2">
                             Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="2">+</span>
                         </div>
-                        <div id="renglon__2" class="acordeon-contenido p-3 small-text">
+                        <div id="renglon__2" class="acordeon-contenido  small-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quae totam cupiditate fugit! Nulla cupiditate saepe,
                             numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
@@ -121,10 +121,13 @@
                             Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="3">+</span>
                         </div>
-                        <div id="renglon__3" class="acordeon-contenido p-3 small-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quae totam cupiditate fugit! Nulla cupiditate saepe,
-                            numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
+                        <div id="renglon__3" class="acordeon-contenido  small-text">
+                            <p>
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae totam cupiditate fugit! Nulla cupiditate saepe,
+                                numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
+                            </p>
                         </div>
 
                     </div>

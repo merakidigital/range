@@ -24,19 +24,22 @@
         z-index: 0;
     }
 </style>
-<div class="banner">
-    <div class="justify-content-between px-sm-5 pt-sm-5 z1 d-none d-sm-flex ">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<div class="banner header_pagina">
+    <nav id="navMenu_general" class="  w-100    pb-5 pt-2   d-flex justify-content-between p-0 px-sm-5 pt-sm-5">
 
-    <img src="./assets/imgs/logo-header.png" width="100px" height="auto">
-
-        <div class="row  align-items-center z1">
-            <a href="./Home" class="c-principal xsmall-text font-weight-bold px-5">HOME</a>
-            <a href="./About" class="c-principal xsmall-text font-weight-bold px-5">ABOUT</a>
-            <a href="./Services" class="c-principal xsmall-text font-weight-bold px-5">SERVICES</a>
-            <a href="./Team" class="c-principal xsmall-text font-weight-bold px-5">TEAM</a>
-            <a href="./Contact" class="c-principal xsmall-text font-weight-bold px-5">CONTACT</a>
+        <div class="content-logo-home px-4 px-sm-0">
+            <img src="./assets/imgs/logo-header.png" width="60px" height="auto" id="logo-home">
+            <i id="btnMenu" class="fas fa-align-justify"  ></i>
         </div>
-    </div>
+        <div id="nav-content-items" class="row font-weight-bold  align-items-center ">
+            <a href="./Home" class=" px-5 xsmall-text font-weight-bold menu-desk-item">HOME</a>
+            <a href="./About" class=" px-5 xsmall-text font-weight-bold menu-desk-item">ABOUT</a>
+            <a href="./Services" class=" px-5 xsmall-text font-weight-bold menu-desk-item">SERVICES</a>
+            <a href="./Team" class=" px-5 xsmall-text font-weight-bold menu-desk-item">TEAM</a>
+            <a href="./Contact" class=" px-5 xsmall-text font-weight-bold menu-desk-item">CONTACT</a>
+        </div>
+    </nav>
     <div class="d-flex justify-content-center align-items-center h-100">
 
         <h1 class="display-3 text-white font-weight-bold z1"><?= isset($titulo) ? $titulo : ""  ?></h1>

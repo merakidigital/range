@@ -74,24 +74,24 @@
         </div>
     </section>
     <section id="section2" class="">
-        <div class="row w-100 h-100 m-0">
+        <div class="row w-100 h-100 m-0  mobile-reverse" style="overflow: hidden;">
 
-            <div class="col-12 col-md-6 ">
+            <div class="col-12 col-md-6 bg-blue-dark">
                 <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
 
-                    <h2 class="font-weight-bold text-left">Why choose us</h2>
+                    <h1 class="font-weight-bold text-left">Why choose us <span style="display: block;border:solid;width:25%;"></span></h1>
 
 
-                    <div class=" d-flex flex-column justify-content-start mt-3">
+                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
                         <h4 class="font-weight-bold"> Industry-specific experience</h4>
                         <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
                         </label>
                     </div>
-                    <div class=" d-flex flex-column justify-content-start mt-3">
+                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
                         <h4 class="font-weight-bold">A team of legal professionals</h4>
                         <label class="small-text">Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
                     </div>
-                    <div class=" d-flex flex-column justify-content-start mt-3">
+                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
                         <h4 class="font-weight-bold">International Network</h4>
                         <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
                     </div>
@@ -99,8 +99,8 @@
 
                 </div>
             </div>
-            <div id="img2" class="col-12 col-md-6 p-0 m-0">
-                <img src="./assets/imgs/img7.png" alt="Services" sizes="" srcset="" class="bg-black w-100" style="background-size: cover">
+            <div id="img2" class="col-12 col-md-6 p-0 m-0 p-relative">
+                <img src="./assets/imgs/img7.png" alt="Services" sizes="" srcset="" class="bg-black "  >
 
             </div>
 
