@@ -26,11 +26,11 @@
 </style>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <div class="banner header_pagina">
-    <nav id="navMenu_general" class="  w-100    pb-5 pt-2   d-flex justify-content-between p-0 px-sm-5 pt-sm-5">
+    <nav id="navMenu_general" class="  w-100    pb-4 pt-1   d-flex justify-content-between p-0 px-sm-5 pt-sm-4">
 
         <div class="content-logo-home px-4 px-sm-0">
-            <img src="./assets/imgs/logo-header.png" width="60px" height="auto" id="logo-home">
-            <i id="btnMenu" class="fas fa-align-justify"  ></i>
+            <img src="./assets/imgs/logo-header.png" width="100px" height="auto" id="logo-home">
+            <i id="btnMenu" class="fas fa-align-justify" style="display:none" ></i>
         </div>
         <div id="nav-content-items" class="row font-weight-bold  align-items-center ">
             <a href="./Home" class=" px-5 xsmall-text font-weight-bold menu-desk-item">HOME</a>

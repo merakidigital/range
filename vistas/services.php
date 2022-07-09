@@ -23,7 +23,7 @@
 
     #section-3 {
         background-image: url("./assets/imgs/services3.png");
-        background-size: contain;
+        background-size: cover;
     }
 
     .acordeon-titulo {
@@ -121,6 +121,7 @@
 
     </section>
     <section class="section-4 mt-9 mb-5">
+        <div class="container">
         <div class="row m-0">
 
             <div id="s-4_1" class="col-12 col-sm-6">
@@ -187,6 +188,7 @@
             </div>
 
         </div>
+</div>
     </section>
 
     <?php $this->vista("_complementos/menus/footer") ?>
