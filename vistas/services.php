@@ -25,30 +25,7 @@
         background-image: url("./assets/imgs/services3.png");
         background-size: contain;
     }
-
-    .acordeon-titulo {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        background-color: #90979f;
-    }
-
-    .acordeon-titulo span {
-        cursor: pointer;
-    }
-
-    .acordeon-titulo.activo {
-        background-color: #a8c6e5;
-    }
-
-    .acordeon-contenido {
-        display: none;
-    }
-
-    .acordeon-contenido.activo {
-        display: block;
-    }
-
+ 
     #s-4_1 {
         display: flex;
         flex-direction: column;
@@ -58,7 +35,7 @@
 
 
 
-<body id="p-services" class="bg-white ">
+<body id="p-services" class="bg-white pagina">
     <section id="section-1" class=" text-center mt-7  container">
         <h5 class="font-weight-bold c-darkblue">OUR SERVICES</h5>
         <h2 class="c-darkblue font-weight-bold">We offer expertise and <span class="c-green">specialized services</span></h2>
@@ -120,7 +97,7 @@
         <div class="bg-banner"></div>
 
     </section>
-    <section class="section-4 mt-9 mb-5">
+    <section class="section-4 mt-9 mb-5 container">
         <div class="row m-0">
 
             <div id="s-4_1" class="col-12 col-sm-6">
@@ -132,9 +109,6 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-12 col-sm-6 bg-blue-dark" style="height: 70px;">
-
-                    </div>
                     <div class="col-12 col-sm-6">
 
 
@@ -142,43 +116,36 @@
                 </div>
             </div>
             <div id="s-4_2" class="col-12 col-sm-6">
-                <div class="container pr-3 plr-sm-5">
-                    <div class="acordeon  px-sm-5 ">
-                        <div  data-respuesta="1" class="acordeon-titulo font-weight-bold active" >
-                            First-Class investing solutions
-                            <h4 class="font-weight-bold iconoAcordeon" data-acordeon="1">-</h4>
+                <div class="container pr-3 plr-sm-5"> 
+                    <div class="acordeon  p-1 px-sm-5">
+                        <div class="acordeon-titulo font-weight-bold active" data-respuesta="1">
+                            Where we can help you?
+                            <span class="font-weight-bold iconoAcordeon" data-acordeon="1">-</span>
                         </div>
-                        <div id="renglon__1" class="acordeon-contenido p-3"style="display: block;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quae totam cupiditate fugit! Nulla cupiditate saepe,
-                            numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
+                        <div id="renglon__1" class="acordeon-contenido  small-text mostrarContenido"  >
+                           <p> Working with advanced technology and know-how businesses in the energy transition, Range Counselors is a driving force for international business expansion.</p>
+
                         </div>
-                        <div  data-respuesta="2" class="acordeon-titulo mt-2 font-weight-bold ">
-                            First-Class investing solutions
+                        <div class="acordeon-titulo mt-2 font-weight-bold " data-respuesta="2">
+                            Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="2">+</span>
                         </div>
-                        <div id="renglon__2" class="acordeon-contenido p-3 ">
+                        <div id="renglon__2" class="acordeon-contenido  small-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Quae totam cupiditate fugit! Nulla cupiditate saepe,
                             numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
                         </div>
-                        <div  data-respuesta="3" class="acordeon-titulo mt-2 font-weight-bold ">
-                            First-Class investing solutions
+                        <div class="acordeon-titulo mt-2 font-weight-bold " data-respuesta="3">
+                            Where we can help you?
                             <span class="font-weight-bold iconoAcordeon" data-acordeon="3">+</span>
                         </div>
-                        <div id="renglon__3" class="acordeon-contenido p-3 ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quae totam cupiditate fugit! Nulla cupiditate saepe,
-                            numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
-                        </div>
-                        <div  data-respuesta="4" class="acordeon-titulo mt-2 font-weight-bold ">
-                            First-Class investing solutions
-                            <span class="font-weight-bold iconoAcordeon" data-acordeon="4">+</span>
-                        </div>
-                        <div id="renglon__4" class="acordeon-contenido p-3 ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quae totam cupiditate fugit! Nulla cupiditate saepe,
-                            numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
+                        <div id="renglon__3" class="acordeon-contenido  small-text">
+                            <p>
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae totam cupiditate fugit! Nulla cupiditate saepe,
+                                numquam rem consequatur eaque cumque dicta quos illo pariatur magnam nobis quod ducimus odio quaerat.
+                            </p>
                         </div>
 
                     </div>
@@ -188,6 +155,7 @@
 
         </div>
     </section>
+            <div class="col-12 col-sm-6 bg-blue-dark bloque-izquierdo" style="height: 70px;"> </div>
 
     <?php $this->vista("_complementos/menus/footer") ?>
 </body>

@@ -21,8 +21,8 @@
         <div class="content-logo-home px-4 px-sm-0">
             <img src="./assets/imgs/logo-header.png" width="60px" height="auto" id="logo-home">
             <i id="btnMenu" class="fas fa-align-justify" style="color:#fff;display:none"></i>
-        </div> 
-        <div id="nav-content-items"  class="row font-weight-bold h-auto align-items-center ">
+        </div>
+        <div id="nav-content-items" class="row font-weight-bold h-auto align-items-center ">
             <a href="./Home" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">HOME</a>
             <a href="./About" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">ABOUT</a>
             <a href="./Services" class="text-white px-5 xsmall-text font-weight-bold menu-desk-item">SERVICES</a>
@@ -73,37 +73,41 @@
 
         </div>
     </section>
-    <section id="section2" class="">
-        <div class="row w-100 h-100 m-0  mobile-reverse" style="overflow: hidden;">
-
-            <div class="col-12 col-md-6 bg-blue-dark">
-                <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
-
-                    <h1 class="font-weight-bold text-left">Why choose us <span style="display: block;border:solid;width:25%;"></span></h1>
+    <section id="section2" class="bg-blue-dark ">
+        <div class="container">
 
 
-                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
-                        <h4 class="font-weight-bold"> Industry-specific experience</h4>
-                        <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
-                        </label>
+            <div class="row w-100 h-100 m-0  mobile-reverse" style="overflow: hidden;">
+
+                <div class="col-12 col-md-6 bg-blue-dark">
+                    <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
+
+                        <h1 class="font-weight-bold text-left text-mobile-1 ">Why choose us <span style="display: block;border:solid;width:25%;"></span></h1>
+
+
+                        <div class=" d-flex flex-column justify-content-start mt-3 w-100">
+                            <h4 class="font-weight-bold"> Industry-specific experience</h4>
+                            <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
+                            </label>
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start mt-3 w-100">
+                            <h4 class="font-weight-bold">A team of legal professionals</h4>
+                            <label class="small-text">Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start mt-3 w-100">
+                            <h4 class="font-weight-bold">International Network</h4>
+                            <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
+                        </div>
+                        <button class="rounded-pill bg-white   py-2 px-5 font-weight-bold">GET IN TOUCH</button>
+
                     </div>
-                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
-                        <h4 class="font-weight-bold">A team of legal professionals</h4>
-                        <label class="small-text">Our attorneys and legal experts have the knowledge and experience to handle your transactions and corporate needs</label>
-                    </div>
-                    <div class=" d-flex flex-column justify-content-start mt-3 w-100">
-                        <h4 class="font-weight-bold">International Network</h4>
-                        <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
-                    </div>
-                    <button class="rounded-pill bg-white   py-2 px-5 font-weight-bold">GET IN TOUCH</button>
+                </div>
+                <div id="img2" class="col-12 col-md-6 p-0 m-0 p-relative z1">
+                    <img src="./assets/imgs/img7.png" alt="Services" sizes="" srcset="" class=" ">
 
                 </div>
-            </div>
-            <div id="img2" class="col-12 col-md-6 p-0 m-0 p-relative">
-                <img src="./assets/imgs/img7.png" alt="Services" sizes="" srcset="" class="bg-black "  >
 
             </div>
-
         </div>
     </section>
     <section id="section3" class="mt-7 container">
@@ -135,7 +139,7 @@
                                     "width": 80,
                                     "height": 40,
                                     "pixelMapperLogo": true,
-                                   
+
                                     "url": "http://www.amcharts.com"
                                 },
                                 {

@@ -318,6 +318,7 @@ footer {
 #p-home #img2 {
     background-image: url("./assets/imgs/img2.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 
 @media (max-width: 512px) {
@@ -420,4 +421,10 @@ footer {
 
 #form-contac div {
     margin-top: 2rem;
+}
+
+/****/
+.bloque-izquierdo{
+    position: relative;
+    top: -100px;
 }
