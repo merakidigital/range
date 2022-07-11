@@ -13,6 +13,12 @@ a {
     font-family: 'Montserrat';
 }
 
+a:hover{
+    color:#A2C454 !important;
+    text-decoration: none;
+
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 36px;
@@ -30,7 +36,7 @@ a {
         font-size: 16px;
     }
 
-    h5 {
+    h5,button {
         font-size: 14px;
     }
 
@@ -62,7 +68,7 @@ a {
 
 @media only screen and (min-width: 720px) {
     h1 {
-        font-size: 60px;
+        font-size: 70px;
     }
 
     h2 {
@@ -278,7 +284,7 @@ footer {
 
 #p-home .banner {
     background-image: url("../imgs/hero-bg.jpg");
-    height: 100vh;
+    height: 75vh;
     background-size: cover;
 
 }

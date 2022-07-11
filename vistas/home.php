@@ -16,10 +16,10 @@
 </head>
 
 <body id="p-home" class="bg-white h-100">
-    <nav id="navMenu" class="  w-100    pb-5 pt-2   d-flex justify-content-between p-0 px-sm-5 pt-sm-5">
+    <nav id="navMenu" class="  w-100    pb-4 pt-1   d-flex justify-content-between p-0 px-sm-5 pt-sm-4">
 
         <div class="content-logo-home px-4 px-sm-0">
-            <img src="./assets/imgs/logo-header.png" width="60px" height="auto" id="logo-home">
+            <img src="./assets/imgs/logo-header.png" width="100px" height="auto" id="logo-home">
             <i id="btnMenu" class="fas fa-align-justify" style="color:#fff;display:none"></i>
         </div>
         <div id="nav-content-items" class="row font-weight-bold h-auto align-items-center ">
@@ -40,7 +40,7 @@
 
 
             <div class="bg-banner"></div>
-            <button href="#" class="primary-btn">GET IN TOUCH</button>
+            <button href="./Contact" class="primary-btn">GET IN TOUCH</button>
         </div>
     </div>
 
@@ -110,7 +110,7 @@
             </div>
         </div>
     </section>
-    <section id="section3" class="mt-7 container">
+    <section id="section3" class="mt-9 container">
         <div class="row h-100 w-100 m-0">
 
             <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center">
@@ -250,7 +250,7 @@
             </div>
         </div>
     </section>
-    <section class="mt-7 container">
+    <section class="mt-9 container">
         <h2 class="text-center font-weight-bold">Featured clients</h2>
         <div class="row p-2 mb-5 h-25  w-100 m-0">
 
