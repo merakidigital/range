@@ -24,17 +24,17 @@
     <section class="mt-2 container">
         <div class="row">
             <div class="imagen col-12 col-sm-4 text-center">
-                <img class="rounded-circle" src="./assets/imgs/jordan.png">
+                <img class="rounded-circle grayscaleimg" src="./assets/imgs/jordan.png">
                 <h3 class="c-darkblue font-weight-bold">Jordan Strouse</h3>
                 <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
             <div class="imagen col-12 col-sm-4 text-center">
-                <img class="rounded-circle" src="./assets/imgs/john.png">
+                <img class="rounded-circle grayscaleimg" src="./assets/imgs/john.png">
                 <h3 class="c-darkblue font-weight-bold">John Doe</h3>
                 <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
             <div class="imagen col-12 col-sm-4 text-center">
-                <img class="rounded-circle" src="./assets/imgs/jane.png">
+                <img class="rounded-circle grayscaleimg" src="./assets/imgs/jane.png">
                 <h3 class="c-darkblue font-weight-bold">Jane Doe</h3>
                 <h6 class="c-darkblue small-text">Oil & Gas Attorney</h6>
             </div>
@@ -46,7 +46,7 @@
 
                 <div class="px-5 pb-5 ">
 
-                <img class="w-100" src="./assets/imgs/team1.png">
+                <img class="w-100 grayscaleimg" src="./assets/imgs/team1.png">
                 </div>
             </div>
             <div class="col-12 col-sm-6">

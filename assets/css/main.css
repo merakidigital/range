@@ -83,7 +83,7 @@ a:hover{
         font-size: 18px;
     }
 
-    h5 {
+    h5,button {
         font-size: 16px;
     }
 
@@ -367,7 +367,7 @@ footer {
 
 /***CONTACT***/
 .pagina #section-3 {
-    background-image: url("./assets/imgs/home1.jpg");
+    background-image: url("./assets/imgs/services3.png");
     background-size: contain;
 }
 
@@ -418,6 +418,10 @@ footer {
 .pagina textarea {
     border: 0px;
 
+}
+
+.grayscaleimg{
+    filter: grayscale();
 }
 
 #form-contac input,

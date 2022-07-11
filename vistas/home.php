@@ -80,12 +80,12 @@
             <div class="row w-100 h-100 m-0  mobile-reverse" style="overflow: hidden;">
 
                 <div class="col-12 col-md-6 bg-blue-dark">
-                    <div class=" text-white    py-5 px-5 align-items-center d-flex flex-column justify-content-lg-between h-100">
+                    <div class=" text-white    py-5 px-5 align-items-left d-flex flex-column justify-content-lg-between h-100">
 
-                        <h1 class="font-weight-bold text-left text-mobile-1 ">Why choose us <span style="display: block;border:solid;width:25%;"></span></h1>
+                        <h2 class="font-weight-bold text-left text-mobile-1 ">Why choose us <span style="display: block;border:solid;width:25%;"></span></h2>
 
 
-                        <div class=" d-flex flex-column justify-content-start mt-3 w-100">
+                        <div class=" d-flex flex-column justify-content-start mt-5 w-100 ">
                             <h4 class="font-weight-bold"> Industry-specific experience</h4>
                             <label class="small-text">Our transactional law attorneys can assist you with oil and gas rights of way, securing leases, drilling, and starting operations.
                             </label>
@@ -98,7 +98,7 @@
                             <h4 class="font-weight-bold">International Network</h4>
                             <label class="small-text">Our team has established connections to resource producing countries all over the world. </label>
                         </div>
-                        <button class="rounded-pill bg-white   py-2 px-5 font-weight-bold">GET IN TOUCH</button>
+                        <button class="rounded-pill bg-white mt-5 py-2 px-5 font-weight-bold">GET IN TOUCH</button>
 
                     </div>
                 </div>
